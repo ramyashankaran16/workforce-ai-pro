@@ -1,0 +1,28 @@
+@"
+APP_NAME=WorkForce AI Pro
+APP_ENV=development
+DEBUG=True
+API_V1_PREFIX=/api/v1
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=postgres
+DB_PASSWORD=Kanisha16@
+DB_NAME=workforce_ai_pro
+DB_SCHEMA=public
+
+JWT_SECRET_KEY=dev-secret-change-before-submission-8f3a91c7b204e6d5
+JWT_ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=60
+REFRESH_TOKEN_EXPIRE_DAYS=7
+
+CORS_ORIGINS=http://localhost:5173,http://localhost:3000
+
+UPLOAD_DIR=uploads
+DATASET_DIR=datasets
+ML_MODEL_DIR=ml_models
+MAX_UPLOAD_SIZE_MB=10
+
+DEFAULT_ADMIN_EMAIL=ramya@aiworkforce.ai
+DEFAULT_ADMIN_PASSWORD=Ramya@123
+"@ | Out-File -FilePath .env -Encoding utf8

@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.py[cod]
+.env
+*.db
+*.sqlite3
+ml_models/*.pkl
+ml_models/*.joblib
+datasets/*.csv
+uploads/
+logs/
+.pytest_cache/
+.vscode/
+.idea/
